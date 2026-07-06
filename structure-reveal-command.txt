@@ -1,0 +1,2 @@
+cmd
+tree /F /A > structure.txt

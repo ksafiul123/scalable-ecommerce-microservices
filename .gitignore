@@ -1,0 +1,134 @@
+# ============================================================
+# JAVA / MAVEN
+# ============================================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ============================================================
+# SPRING BOOT
+# ============================================================
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
+
+# ============================================================
+# NODE / REACT (frontend/)
+# ============================================================
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+
+# Production build
+frontend/build/
+build/
+
+# ============================================================
+# ENVIRONMENT & SECRETS — NEVER COMMIT THESE
+# ============================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Stripe keys
+stripe-keys.txt
+
+# ============================================================
+# IDEs
+# ============================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# DOCKER
+# ============================================================
+# Keep docker-compose.yml but ignore override files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# ============================================================
+# LOGS
+# ============================================================
+*.log
+logs/
+spring.log
+
+# ============================================================
+# DATABASE
+# ============================================================
+*.sql.bak
+dump.sql
+data-backup/
+
+# ============================================================
+# MISC
+# ============================================================
+*.swp
+*.swo
+*~
+.cache/
+.temp/

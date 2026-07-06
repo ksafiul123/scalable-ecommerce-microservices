@@ -1,0 +1,2 @@
+powershell
+Compress-Archive -Path docker-compose.yml, api-gateway\src, api-gateway\pom.xml, auth-service\src, auth-service\pom.xml, eureka-server\src, eureka-server\pom.xml, order-service\src, order-service\pom.xml, payment-service\src, payment-service\pom.xml, product-service\src, product-service\pom.xml, user-service\src, user-service\pom.xml, frontend\src, frontend\public, frontend\package.json, frontend\tailwind.config.js, frontend\postcss.config.js -DestinationPath ecommerce-clean.zip
